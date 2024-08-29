@@ -40,11 +40,11 @@ while running:
         passed_check = True
     
     if passed_check:
-        print(f"1. {"[Y] " if dynamic_island_enabled else ""}Toggle Dynamic Island")
-        print(f"2. {"[Y] " if current_model_name != "" else ""}Set Device Model Name")
-        print(f"3. {"[Y] " if boot_chime_enabled else ""}Toggle Boot Chime")
-        print(f"4. {"[Y] " if charge_limit_enabled else ""}Toggle Charge Limit")
-        print(f"5. {"[Y] " if stage_manager_enabled else ""}Toggle Stage Manager Supported")
+        print(f'1. {"[Y] " if dynamic_island_enabled else ""}Toggle Dynamic Island')
+        print(f'2. {"[Y] " if current_model_name != "" else ""}Set Device Model Name')
+        print(f'3. {"[Y] " if boot_chime_enabled else ""}Toggle Boot Chime')
+        print(f'4. {"[Y] " if charge_limit_enabled else ""}Toggle Charge Limit')
+        print(f'5. {"[Y] " if stage_manager_enabled else ""}Toggle Stage Manager Supported')
         print("\n9. Apply")
         print("0. Exit\n")
         page = int(input("Enter a number: "))
